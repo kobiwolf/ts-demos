@@ -81,3 +81,21 @@
 // let e = { type: 'ficus' }; // {type:string}
 // let f = [1, false]; //(number|bollian)[]
 // const g = [3]; // number[]
+
+// ! functions
+// function a(a:number):number{
+//   let b='a'
+//   return b
+// }
+// a(2)
+// let a = (a?: number): number => 5;
+// let a=(a='a')=>5
+//!type of func
+// type a=(a:number)=>number
+// let a:a=(num)=>num+1
+// a(2)
+
+//! bind call apply
+// const a = function () {
+//   console.log(`hi ${this}`);
+// };
