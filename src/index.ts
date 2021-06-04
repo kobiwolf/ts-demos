@@ -19,11 +19,10 @@
 // a.b='c'
 // console.log(a);
 
-// !declare type
+// ! declare type
 // let a = String;
 // type a = number;
 // console.log(a);
-
 // c = '5';
 
 //! union and intersection
@@ -56,13 +55,29 @@
 // let c:[number,boolean,...string[]] //! important to notice the ...
 // c=[1,true]
 // c.push('a')
+// let r: [3] = [3];
 
 // ! enums
-enum Color {
-  a,
-  b,
-  c,
-}
-let a = Color.a;
+// enum Color {
+//   word = 'word',
+//   letter = 'letter',
+// }
+// let a: Color.word;
+// let a = Color.word;
+// console.log(a);
+// console.log(Color.word);
 
-console.log(a);
+// ! null
+// let h = null;
+// console.log(h);
+// let status: { [key: string]: number } = { name: 1 };
+// let a: status.name;
+
+//! ex
+// let a = 1042; //number
+// let b = 'apples and oranges'; //string
+// const c = 'pineapples'; //'pineapple
+// let d = [true, true, false]; //boolian[]
+// let e = { type: 'ficus' }; // {type:string}
+// let f = [1, false]; //(number|bollian)[]
+// const g = [3]; // number[]
